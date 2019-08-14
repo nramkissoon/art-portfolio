@@ -37,7 +37,7 @@ class Header extends Component {
     if (s === "/"){
       return "Home";
     }
-    return s[1].toUpperCase() + s.slice(2);
+    return s[15].toUpperCase() + s.slice(16);
   }
 
   render () {
