@@ -16,35 +16,35 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-            <Redirect exact from="/" to="/photo" />
+            <Redirect exact from="/" to="/art-portfolio/photo" />
             <Route exact path='/map' render={() => (
               <>
-              <Header currentPage='/map'/>
+              <Header currentPage='/art-portfolio/map'/>
               <MapPage photoData={photoData}/>
               </>
               )} />
-            <Route exact path='/photo' render={() => (
+            <Route exact path='/art-portfolio/photo' render={() => (
               <>
               <Header currentPage='/photo'/>
               <PhotoPage photoData={photoData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/render' render={() => (
+            <Route exact path='/art-portfolio/render' render={() => (
               <>
               <Header currentPage='/render'/>
               <RenderPage renderData={renderData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/video' render={() => (
+            <Route exact path='/art-portfolio/video' render={() => (
               <>
               <Header currentPage='/video'/>
               <VideoPage videoData={videoData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/about' render={() => (
+            <Route exact path='/art-portfolio/about' render={() => (
               <>
               <Header currentPage='/about'/>
               <AboutPage />
