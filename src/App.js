@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom';
+import {Route, HashRouter} from 'react-router-dom';
 import MapPage from './components/MapPage';
 import PhotoPage from './components/PhotoPage';
 import RenderPage from './components/RenderPage';
@@ -14,9 +14,8 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
         <div className="App">
-            <Redirect exact from="/" to={'/photo'} />
             <Route exact path={'/map'} render={() => (
               <>
               <Header currentPage={'/map'}/>
@@ -52,7 +51,7 @@ class App extends Component {
               )} />
           <Footer year={year}/>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
