@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, HashRouter} from 'react-router-dom';
+import {Route, Redirect, HashRouter} from 'react-router-dom';
 import MapPage from './components/MapPage';
 import PhotoPage from './components/PhotoPage';
 import RenderPage from './components/RenderPage';
@@ -16,6 +16,7 @@ class App extends Component {
     return (
     <HashRouter basename="/">
         <div className="App">
+            <Redirect exact from="/" to={'/photo'} />
             <Route exact path={'/map'} render={() => (
               <>
               <Header currentPage={'/map'}/>
