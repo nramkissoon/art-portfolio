@@ -17,7 +17,7 @@ class App extends Component {
       <Router>
         <div className="App">
             <Redirect exact from="/" to="/art-portfolio/photo" />
-            <Route exact path='/map' render={() => (
+            <Route exact path='/art-portfolio/map' render={() => (
               <>
               <Header currentPage='/art-portfolio/map'/>
               <MapPage photoData={photoData}/>
