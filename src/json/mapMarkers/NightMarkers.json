@@ -1,0 +1,22 @@
+[
+  {
+    "photoSetID": "NYC Nightscape",
+    "lat": 40.7549,
+    "lng": -73.9840
+  },
+  {
+    "photoSetID": "Tokyo Cyberpunk",
+    "lat": 35.6804,
+    "lng": 139.7690
+  },
+  {
+    "photoSetID": "Kyoto Nights",
+    "lat": 35.0116,
+    "lng": 135.7681
+  },
+  {
+    "photoSetID": "NYC Cyberpunk",
+    "lat": 40.7209,
+    "lng": -74.0007
+  }
+]

@@ -1,0 +1,13 @@
+
+.thumbnailContainer {
+  height: 90vh;
+  width: 100%;
+  margin: 0px;
+  float: right;
+}
+
+.thumbnails {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "photoSetID": "NYC Street",
+    "lat": 40.7209,
+    "lng": -74.0007
+  },
+  {
+    "photoSetID": "NYC Cityscape",
+    "lat": 40.7549,
+    "lng": -73.9840
+  },
+  {
+    "photoSetID": "Tokyo",
+    "lat": 35.6804,
+    "lng": 139.7690
+  },
+  {
+    "photoSetID": "Kyoto",
+    "lat": 35.0116,
+    "lng": 135.7681
+  },
+  {
+    "photoSetID": "OSAKA",
+    "lat": 34.6937,
+    "lng": 135.5023
+  },
+  {
+    "photoSetID": "Fuji",
+    "lat": 35.5171,
+    "lng": 138.7518
+  },
+  {
+    "photoSetID": "Cape Town",
+    "lat": -33.9249,
+    "lng": 18.4241
+  },
+  {
+    "photoSetID": "LA",
+    "lat": 34.0522,
+    "lng": -118.2437
+  },
+  {
+    "photoSetID": "The Caribbean",
+    "lat": 18.7357,
+    "lng": -70.1627
+  },
+  {
+    "photoSetID": "SE Alaska",
+    "lat": 58.3019,
+    "lng": -134.4197
+  }
+]

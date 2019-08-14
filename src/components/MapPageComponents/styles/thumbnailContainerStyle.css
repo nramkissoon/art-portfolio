@@ -1,0 +1,36 @@
+h1 {
+  cursor: default;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: lighter;
+  width: 70%;
+  height: 8%;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+}
+
+h1:hover {
+  cursor: default;
+}
+
+#mapPageThumbnailContainer {
+  height: 90vh;
+  width: 49vw;
+  margin: 0px;
+  float: left;
+  overflow-x: hidden;
+}
+
+.dayHeader, .nightHeader {
+  color: #e8e8e8;
+}
+
+.thumbnails {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}

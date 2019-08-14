@@ -1,0 +1,50 @@
+#toggle {
+  font-size: 16px;
+  width: 10%;
+  float: left;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  margin-top: .7%;
+  margin-left: 1%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: arial;
+  position: absolute;
+  z-index: 10;
+  overflow-x: hidden;
+}
+
+button:focus {
+  outline: none;
+}
+
+.dayBtn {
+  color: black;
+  background-color: #e3e9dd;
+  border-color: black;
+  -webkit-text-stroke: 1px,  #3C7680;
+}
+
+.dayBtn:hover {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color: #e8e8e8;
+  transition: .3s;
+  border-color: #2e2e2e;
+}
+
+.nightBtn {
+  background-color: #1d2c4d;
+  color: #8ec3b9;
+  border-color: #8ec3b9;
+  -webkit-text-stroke: 1px,  #3C7680;
+}
+
+.nightBtn:hover {
+  cursor: pointer;
+  background-color: #8ec3b9;
+  color: #FE0101;
+  border-color: #FE0101;
+  transition: .3s;
+}

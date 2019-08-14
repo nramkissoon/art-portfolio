@@ -1,0 +1,170 @@
+.label:hover {
+  cursor: default;
+}
+
+#clear {
+  width: 45%;
+  height: 100%;
+  background-color: #5e5e5e;
+  color: white;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: lighter;
+  border-color: black;
+  border-radius: 3px;
+  border-width: 1px;
+  opacity: 1;
+  padding-top: 2px;
+  box-shadow: 0px 1px 2px black;
+  transition: .1s;
+}
+
+#clear:hover {
+  width: 44.7%;
+  cursor: pointer;
+  background-color: #7E191B;
+  color: white;
+  padding-top: 3px;
+  font-size: 17.5px;
+  transition: .05s;
+  opacity: 1;
+  box-shadow: 0px 0px 0px black;
+
+}
+
+.cont {
+  width: 100%;
+  background-color: #9e9e9e;
+  color: black;
+}
+
+.check {
+  width:20%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+  background-color: #9e9e9e;
+  color: black;
+  font-size: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.noCheck{
+  width:20%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+  background-color: #9e9e9e;
+  color: black;
+  font-size: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 0;
+}
+
+/* Custom dropdown */
+.Genre-filter, .dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3%;
+  width: 11vw;
+  box-shadow: 0px 1px 4px black;
+}
+
+.Genre-filter, .dropdown{
+  background-color: #5e5e5e;
+  color: #fff;
+  font-size: 18px;
+  font-family: arial;
+  padding-right: 1.5em;
+  line-height: 1.7em;
+  text-align: center;
+  transition: .3s;
+}
+
+.genre {
+  width: 80%;
+  margin: 0;
+  float: left;
+  background-color: #9e9e9e;
+  color: black;
+  font-size: 20px;
+  font-family: arial;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.option{
+  background-color: #9e9e9e;
+  color: black;
+  font-size: 20px;
+  font-family: arial;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0px;
+  text-align: center;
+  padding-right: 1.5em;
+}
+
+.dropdown:hover,
+.Genre-filter:hover{
+  cursor: pointer;
+  background-color: #9e9e9e;
+  color: black;
+  transition: .3s;
+  box-shadow: 2px 2px 6px black;
+}
+
+.option:hover, .cont:hover, .genre:hover {
+  cursor: pointer;
+  background-color: #2e2e2e;
+  color: white;
+  transition: .3s;
+}
+
+.option:active, .genre:active{
+  background-color: black;
+  color:#fff;
+  transition: 0s;
+}
+
+.dropdown:focus,
+.Genre-filter:focus {
+  outline: none;
+}
+
+.dropdown::before,
+.dropdown::after,
+.Genre-filter::before,
+.Genre-filter::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.dropdown::after,
+.Genre-filter::after{ /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+  color: black;
+}
+
+.dropdown::before
+.Genre-filter::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}

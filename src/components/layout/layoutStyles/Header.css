@@ -1,0 +1,26 @@
+.headerLink, .currentPage {
+  color: #e8e8e8;
+  font-size: 20px;
+  font-family: arial;
+  width: 9.8vw;
+  float: left;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow-x: hidden;
+}
+
+.headerLink:hover {
+  cursor: pointer;
+  background-color: #5e5e5e;
+  transition: .3s;
+}
+
+.currentPage {
+  cursor: default;
+  background-color: #2e2e2e;
+}
+
+.headerLink:focus, .currentPage:focus {
+
+}

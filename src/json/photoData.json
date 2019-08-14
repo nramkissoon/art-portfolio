@@ -1,0 +1,1851 @@
+[
+    {
+      "photoSetID": "Tokyo Cyberpunk",
+      "day": false,
+      "photos" : [
+        {
+          "filename": "Tokyo_Cyberpunk1.jpg",
+          "description": "Taxi in Shinjuku",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk2.jpg",
+          "description": "Two salarymen",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk3.jpg",
+          "description": "Shinjuku alleyway",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk4.jpg",
+          "description": "Crossing in Ginza",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk5.jpg",
+          "description": "TeamLab Borderless installation",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk6.jpg",
+          "description": "The Warehouse entrance in Kawasaki",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk7.jpg",
+          "description": "Tokyo density",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk8.jpg",
+          "description": "River near Akihabara",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk9.jpg",
+          "description": "Ueno",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo_Cyberpunk10.jpg",
+          "description": "Shinjuku crosswalk",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": true
+          }
+        }
+      ],
+      "setDescription": "Cyberpunk-themed images of Tokyo",
+      "numPhotos": 10
+    },
+    {
+      "photoSetID": "Fuji",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "Fuji1.jpg",
+          "description": "Drone photo over Kawaguchi-ko",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Fuji2.jpg",
+          "description": "Close-up of Arakurayama Sengen pagoda",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Fuji3.jpg",
+          "description": "View from Arakurayama Sengen",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Fuji4.jpg",
+          "description": "Man with Mt. Fuji",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Fuji5.jpg",
+          "description": "Mirror Mt. Fuji",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Fuji6.jpg",
+          "description": "Mt. Fuji through grass",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Mt. Fuji",
+      "numPhotos": 6
+    },
+    {
+      "photoSetID": "Kyoto Nights",
+      "day": false,
+      "photos" : [
+        {
+          "filename": "Kyoto_Nights1.jpg",
+          "description": "Geisha in Gion",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights2.jpg",
+          "description": "An empty street",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights3.jpg",
+          "description": "Street lit up from car headlights",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights4.jpg",
+          "description": "A vending machine",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights5.jpg",
+          "description": "Fushimi-Inari before sunrise",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights6.jpg",
+          "description": "Narrow street in Gion",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights7.jpg",
+          "description": "Gion",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights8.jpg",
+          "description": "Street light",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto_Nights9.jpg",
+          "description": "JR Station tracks",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Kyoto at night",
+      "numPhotos": 9
+    },
+    {
+      "photoSetID": "Cape Town",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "Cape_Town1.jpg",
+          "description": "An African elephant",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town2.jpg",
+          "description": "Giraffe",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town3.jpg",
+          "description": "African penguin on beach",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town4.jpg",
+          "description": "Table Mountain cable car",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town5.jpg",
+          "description": "Lion's Head at sunset",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town6.jpg",
+          "description": "View from Table Mountain",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": true
+          }
+        },
+        {
+          "filename": "Cape_Town7.jpg",
+          "description": "View of East CapeTown from helicoptor",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Cape_Town8.jpg",
+          "description": "East Cape Town from Lion's Head",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Cape Town, South Africa",
+      "numPhotos": 8
+    },
+    {
+      "photoSetID": "OSAKA",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "OSAKA1.jpg",
+          "description": "Tsutenkaku Tower",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "OSAKA2.jpg",
+          "description": "Umeda Sky Building",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "OSAKA3.jpg",
+          "description": "View from Umeda Sky Building",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "OSAKA4.jpg",
+          "description": "Escalator in Umeda Sky Building",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "OSAKA5.jpg",
+          "description": "Dotonburi",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "OSAKA6.jpg",
+          "description": "Random street in Osaka",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Osaka",
+      "numPhotos": 6
+    },
+    {
+      "photoSetID": "Kyoto",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "Kyoto1.jpg",
+          "description": "Arashiyama",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto2.jpg",
+          "description": "Kyoto Station",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto3.jpg",
+          "description": "Alley in Kyoto",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto4.jpg",
+          "description": "Shirahige tori gate",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto5.jpg",
+          "description": "Train tracks",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto6.jpg",
+          "description": "Fushimi-Inari",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto7.jpg",
+          "description": "Yasaka pagoda",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto8.jpg",
+          "description": "Fushimi-Inari bend",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Kyoto9.jpg",
+          "description": "River in Kyoto",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Kyoto",
+      "numPhotos": 9
+    },
+    {
+      "photoSetID": "NYC Cyberpunk",
+      "day": false,
+      "photos" : [
+        {
+          "filename": "NYC_Cyberpunk1.jpg",
+          "description": "Rain on Canal Street",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk2.jpg",
+          "description": "Couple in DUMBO",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk3.jpg",
+          "description": "Couple on the Brooklyn Bridge",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk4.jpg",
+          "description": "Midtown rain",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": true
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk5.jpg",
+          "description": "Rooftop view of Times Square",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk6.jpg",
+          "description": "Sewer under Astoria",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk7.jpg",
+          "description": "Brooklyn Bridge roadway",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk8.jpg",
+          "description": "181st walkway",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk9.jpg",
+          "description": "Tribeca Bridge",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk10.jpg",
+          "description": "Blizzard in Times Square",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk11.jpg",
+          "description": "View of Chinatown",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk12.jpg",
+          "description": "View from Manhattan Bridge",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk13.jpg",
+          "description": "Chinatown?",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": true
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk14.jpg",
+          "description": "Brooklyn Bridge",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk15.jpg",
+          "description": "Roadway in fog",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk16.jpg",
+          "description": "Brooklyn Bridge covered in fog",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cyberpunk17.jpg",
+          "description": "LES beach",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": true,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Cyberpunk images of NYC",
+      "numPhotos": 17
+    },
+    {
+      "photoSetID": "Tokyo",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "Tokyo1.jpg",
+          "description": "Asakusa Temple",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo2.jpg",
+          "description": "Taxi in Shinjuku",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo3.jpg",
+          "description": "View of Shibuya",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo4.jpg",
+          "description": "A couple looking over Shibuya",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo5.jpg",
+          "description": "Tokyo International Forum",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo6.jpg",
+          "description": "Yurikamome line",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo7.jpg",
+          "description": "Tokyo Cityscape",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo8.jpg",
+          "description": "Ginza line",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo9.jpg",
+          "description": "Asakusa line",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "Tokyo10.jpg",
+          "description": "View of Ginza crossing",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of Tokyo",
+      "numPhotos": 10
+    },
+    {
+      "photoSetID": "LA",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "LA1.jpg",
+          "description": "Santa Monica Pier",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA2.jpg",
+          "description": "Under Santa Monica",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA3.jpg",
+          "description": "View from Grifftih Observatory",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA4.jpg",
+          "description": "Downtown LA",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA5.jpg",
+          "description": "Walt Disney Concert Hall",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA6.jpg",
+          "description": "A lookup",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA7.jpg",
+          "description": "Surfer at Manhattan Beach",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "LA8.jpg",
+          "description": "Sunset at Manhattan Beach",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images from a weekend trip to LA",
+      "numPhotos": 8
+    },
+    {
+      "photoSetID": "NYC Nightscape",
+      "day": false,
+      "photos" : [
+        {
+          "filename": "NYC_Nightscape1.jpg",
+          "description": "Lower Manhattan",
+          "year": "2018",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": true
+          }
+        },
+        {
+          "filename": "NYC_Nightscape2.jpg",
+          "description": "The Oculus",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Nightscape3.jpg",
+          "description": "FIDI",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Nightscape4.jpg",
+          "description": "Hellsgate Bridge",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of NYC at night",
+      "numPhotos": 4
+    },
+    {
+      "photoSetID": "NYC Street",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "NYC_Street1.jpg",
+          "description": "Rowers on the East River",
+          "year": "2017",
+          "bw": true,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street2.jpg",
+          "description": "Alley on Canal",
+          "year": "2017",
+          "bw": true,
+          "analog": false,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street3.jpg",
+          "description": "Rain on Canal",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street4.jpg",
+          "description": "No Umbrella",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street5.jpg",
+          "description": "West 4th",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street6.jpg",
+          "description": "Dollar dumplings in Chinatown",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street7.jpg",
+          "description": "Shop in Chinatown",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street8.jpg",
+          "description": "WSP",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Street9.jpg",
+          "description": "Man and pigeon",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": true,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Street photography in NYC",
+      "numPhotos": 9
+    },
+    {
+      "photoSetID": "NYC Cityscape",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "NYC_Cityscape1.jpg",
+          "description": "Midtown lookup",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape2.jpg",
+          "description": "Gantry Sunset",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape3.jpg",
+          "description": "View from rooftop near Times Square",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape4.jpg",
+          "description": "View from Astoria Park",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape5.jpg",
+          "description": "Astoria Blvd",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape6.jpg",
+          "description": "Sunset from Battery Park",
+          "year": "2017",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape7.jpg",
+          "description": "Chrysler",
+          "year": "2017",
+          "bw": false,
+          "analog": true,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape8.jpg",
+          "description": "Tudor City overpass",
+          "year": "2017",
+          "bw": true,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape9.jpg",
+          "description": "Grand Central Station",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        },
+        {
+          "filename": "NYC_Cityscape10.jpg",
+          "description": "Rockaway Beach",
+          "year": "2017",
+          "bw": true,
+          "analog": true,
+          "genre": {
+            "street": false,
+            "cityscape": true,
+            "cyberpunk": false,
+            "landscape": false,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images of NYC",
+      "numPhotos": 10
+    },
+    {
+      "photoSetID": "SE Alaska",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "SE_Alaska1.jpg",
+          "description": "Mendenhall Glacier",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "SE_Alaska2.jpg",
+          "description": "Humpback whale fluke",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "SE_Alaska3.jpg",
+          "description": "Mountains near Skagway",
+          "year": "2019",
+          "bw": true,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "SE_Alaska4.jpg",
+          "description": "Skagway White Pass",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "SE_Alaska5.jpg",
+          "description": "Margerie Glacier",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "SE_Alaska6.jpg",
+          "description": "Glacier Bay National Park",
+          "year": "2019",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        }
+      ],
+      "setDescription": "Images from southeast Alaska",
+      "numPhotos": 6
+    },
+    {
+      "photoSetID": "The Caribbean",
+      "day": true,
+      "photos" : [
+        {
+          "filename": "The_Caribbean1.jpg",
+          "description": "Maracas Bay",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "The_Caribbean2.jpg",
+          "description": "Houses on a mountain",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "The_Caribbean3.jpg",
+          "description": "Tobago",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "The_Caribbean4.jpg",
+          "description": "Town in Trinidad",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "The_Caribbean5.jpg",
+          "description": "Temple in Trinidad",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+        {
+          "filename": "The_Caribbean6.jpg",
+          "description": "Las Lomas",
+          "year": "2016",
+          "bw": false,
+          "analog": false,
+          "genre": {
+            "street": false,
+            "cityscape": false,
+            "cyberpunk": false,
+            "landscape": true,
+            "composite": false
+          }
+        },
+          {
+            "filename": "The_Caribbean7.jpg",
+            "description": "St. Thomas",
+            "year": "2015",
+            "bw": false,
+            "analog": false,
+            "genre": {
+              "street": false,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": true,
+              "composite": false
+            }
+          },
+          {
+            "filename": "The_Caribbean8.jpg",
+            "description": "St. Maartin airport beach",
+            "year": "2015",
+            "bw": false,
+            "analog": false,
+            "genre": {
+              "street": false,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": true,
+              "composite": false
+            }
+          },
+          {
+            "filename": "The_Caribbean9.jpg",
+            "description": "Maracas Beach",
+            "year": "2016",
+            "bw": false,
+            "analog": true,
+            "genre": {
+              "street": false,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": false,
+              "composite": false
+            }
+          },
+          {
+            "filename": "The_Caribbean10.jpg",
+            "description": "Boats in Maracas Bay",
+            "year": "2016",
+            "bw": false,
+            "analog": true,
+            "genre": {
+              "street": false,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": true,
+              "composite": false
+            }
+          },
+          {
+            "filename": "The_Caribbean11.jpg",
+            "description": "Flags near temple",
+            "year": "2016",
+            "bw": false,
+            "analog": true,
+            "genre": {
+              "street": false,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": false,
+              "composite": false
+            }
+          },
+          {
+            "filename": "The_Caribbean12.jpg",
+            "description": "Boat tour guide in Tobago",
+            "year": "2019",
+            "bw": false,
+            "analog": true,
+            "genre": {
+              "street": true,
+              "cityscape": false,
+              "cyberpunk": false,
+              "landscape": false,
+              "composite": false
+            }
+          }
+
+      ],
+      "setDescription": "Images from southeast Alaska",
+      "numPhotos": 12
+    }
+]
