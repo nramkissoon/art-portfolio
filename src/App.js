@@ -25,28 +25,28 @@ class App extends Component {
               )} />
             <Route exact path='/art-portfolio/photo' render={() => (
               <>
-              <Header currentPage='/photo'/>
+              <Header currentPage='/art-portfolio/photo'/>
               <PhotoPage photoData={photoData}
                          year={year}/>
               </>
               )} />
             <Route exact path='/art-portfolio/render' render={() => (
               <>
-              <Header currentPage='/render'/>
+              <Header currentPage='/art-portfolio/render'/>
               <RenderPage renderData={renderData}
                          year={year}/>
               </>
               )} />
             <Route exact path='/art-portfolio/video' render={() => (
               <>
-              <Header currentPage='/video'/>
+              <Header currentPage='/art-portfolio/video'/>
               <VideoPage videoData={videoData}
                          year={year}/>
               </>
               )} />
             <Route exact path='/art-portfolio/about' render={() => (
               <>
-              <Header currentPage='/about'/>
+              <Header currentPage='/art-portfolio/about'/>
               <AboutPage />
               </>
               )} />
