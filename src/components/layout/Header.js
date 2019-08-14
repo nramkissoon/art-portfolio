@@ -15,8 +15,8 @@ class Header extends Component {
   }
 
   _createHeaderLinks() {
-    let links = ["/art-portfolio/photo", "/art-portfolio/video",
-      "/art-portfolio/render", "/art-portfolio/map", "/art-portfolio/about"];
+    let links = ["/photo", "/video",
+      "/render", "/map", "/about"];
     return links.map((link) => {return link !== this.props.currentPage ? (
         <Link key={link} to={link}>
           <div id={link}
@@ -34,7 +34,7 @@ class Header extends Component {
   }
 
   _linkText(s: String) {
-    return s[15].toUpperCase() + s.slice(16);
+    return s[1].toUpperCase() + s.slice(2);
   }
 
   render () {

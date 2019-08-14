@@ -14,39 +14,39 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
-            <Redirect exact from="/" to="/art-portfolio/photo" />
-            <Route exact path='/art-portfolio/map' render={() => (
+            <Redirect exact from="/" to={'/photo'} />
+            <Route exact path={'/map'} render={() => (
               <>
-              <Header currentPage='/art-portfolio/map'/>
+              <Header currentPage={'/map'}/>
               <MapPage photoData={photoData}/>
               </>
               )} />
-            <Route exact path='/art-portfolio/photo' render={() => (
+            <Route exact path={'/photo'} render={() => (
               <>
-              <Header currentPage='/art-portfolio/photo'/>
+              <Header currentPage={'/photo'}/>
               <PhotoPage photoData={photoData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/art-portfolio/render' render={() => (
+            <Route exact path={'/render'} render={() => (
               <>
-              <Header currentPage='/art-portfolio/render'/>
+              <Header currentPage={'/render'}/>
               <RenderPage renderData={renderData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/art-portfolio/video' render={() => (
+            <Route exact path={'/video'} render={() => (
               <>
-              <Header currentPage='/art-portfolio/video'/>
+              <Header currentPage={'/video'}/>
               <VideoPage videoData={videoData}
                          year={year}/>
               </>
               )} />
-            <Route exact path='/art-portfolio/about' render={() => (
+            <Route exact path={'/about'} render={() => (
               <>
-              <Header currentPage='/art-portfolio/about'/>
+              <Header currentPage={'/about'}/>
               <AboutPage />
               </>
               )} />

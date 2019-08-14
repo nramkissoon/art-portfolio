@@ -82,7 +82,7 @@ class MapThumbnailContainer extends PureComponent {
         </h1>
       </div>
       <div className='thumbnails' style={{overflowY: 'auto',
-        height: '85vh'
+        height: '84.6vh'
         }}>
         {thumbnails}
       </div>

@@ -24,7 +24,7 @@ class Footer extends Component {
 }
 
 Footer.propTypes = {
-  year: PropTypes.string.isRequired
+  year: PropTypes.number.isRequired
 }
 
 export default Footer;

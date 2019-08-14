@@ -1,9 +1,9 @@
-import React, {PureComponent} from 'react';
+import React, {Component} from 'react';
 import GoogleMapReact from 'google-map-react';
 import Marker from './Marker';
 import PropTypes from 'prop-types';
 
-class Map extends PureComponent {
+class Map extends Component {
 
   _setMapStyle() {
     return (this.props.isNight ? nightMapStyle : dayMapStyle)
