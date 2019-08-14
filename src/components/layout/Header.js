@@ -34,9 +34,6 @@ class Header extends Component {
   }
 
   _linkText(s: String) {
-    if (s === "/"){
-      return "Home";
-    }
     return s[15].toUpperCase() + s.slice(16);
   }
 
