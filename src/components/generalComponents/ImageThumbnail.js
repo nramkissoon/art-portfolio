@@ -3,7 +3,7 @@ import './styles/imageThumbnail.css';
 import FullImageModal from './FullImageModal';
 import PropTypes from 'prop-types';
 
-
+// class for image thumbnails in photo and map pages
 class ImageThumbnail extends Component {
 
   constructor(props) {

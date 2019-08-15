@@ -17,7 +17,7 @@ class App extends Component {
     <HashRouter basename="/">
         <div className="App">
           <Route exact path="/" render={() => (
-              <Redirect to="/searchDashboard"/>
+              <Redirect to="/photo"/> //No landing page yet
             )}/>
             <Route exact path={'/map'} render={() => (
               <>

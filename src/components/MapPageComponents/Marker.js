@@ -2,6 +2,7 @@ import React, {PureComponent} from 'react';
 import './styles/marker.css';
 import PropTypes from 'prop-types';
 
+//Location Markers for Google Map
 class Marker extends PureComponent{
 
   styleMarker() {
