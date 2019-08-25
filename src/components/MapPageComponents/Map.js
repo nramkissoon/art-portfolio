@@ -33,7 +33,6 @@ class Map extends Component {
       <div className="mapContainer" style={mapCSS}>
         <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyDvYg4RBLbXfa_stM5Ihh3X25ZyGhWepCA' }}
-        {/*Yes, the Key has been restricted and has HTTP referrers*/}
         onGoogleApiLoaded={this.props.googleMapLoaded.bind(this, true)}
         yesIWantToUseGoogleMapApiInternals={true}
         defaultZoom={5}
