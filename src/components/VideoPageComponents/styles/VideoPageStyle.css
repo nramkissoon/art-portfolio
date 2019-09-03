@@ -40,19 +40,19 @@ video:hover{
 .thumbDescription {
   width: 100%;
   height: 20%;
-  font-family: arial;
   color: #fff;
   text-align: center;
   margin-top: 4%;
   display: inline-block;
   font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .description {
   width: 100%;
   height: 20%;
   font-size: 30px;
-  font-family: arial;
+  letter-spacing: 2px;
   color: #fff;
   cursor: default;
   text-align: center;

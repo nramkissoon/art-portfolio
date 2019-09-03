@@ -1,5 +1,5 @@
 #toggle {
-  font-size: 16px;
+  font-size: 15px;
   width: 10%;
   float: left;
   border-style: solid;
@@ -9,7 +9,6 @@
   margin-left: 1%;
   padding-top: 8px;
   padding-bottom: 8px;
-  font-family: arial;
   position: absolute;
   z-index: 10;
   overflow-x: hidden;

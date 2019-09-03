@@ -13,7 +13,6 @@ class AboutPage extends Component {
 const nothingHereStyle = {
   cursor: 'default',
   color: 'white',
-  fontFamily: 'arial',
   fontSize: '35px',
   marginTop: '15%',
   marginBottom: '25%',

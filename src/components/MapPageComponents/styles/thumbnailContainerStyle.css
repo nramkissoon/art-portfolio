@@ -1,8 +1,8 @@
 h1 {
   cursor: default;
   font-size: 22px;
-  font-family: arial;
   font-weight: lighter;
+  letter-spacing: 2px;
   width: 70%;
   height: 8%;
   margin: auto;
