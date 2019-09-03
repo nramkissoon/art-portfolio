@@ -1,7 +1,9 @@
 .headerLink, .currentPage {
   color: #e8e8e8;
-  font-size: 20px;
-  font-family: arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400; 
+  letter-spacing: 2px;
   width: 9.8vw;
   float: left;
   text-align: center;
