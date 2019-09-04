@@ -7,7 +7,25 @@
 }
 
 .thumbnails {
-  height: 100%;
   width: 100%;
   display: inline-block;
+}
+
+.thumbnailDiv {
+  float: left;
+  position: relative;
+  width: 15.85%;
+  margin-right: .4%;
+  margin-left: .4%;
+  margin-bottom: .8%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .thumbnailDiv{
+    width: 31.7%;
+    margin-right: .8%;
+    margin-left: .8%;
+    margin-bottom: 1.6%;
+  }
 }

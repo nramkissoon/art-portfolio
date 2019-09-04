@@ -24,7 +24,7 @@ class PhotoPageThumbnailContainer extends Component {
     let fullPath = "/images/" + dirName + "/full/" + filename
     return (
       <div key={this.keyCount.toString() + filename}
-        style={this._handleThumbnailSize()}>
+        className="thumbnailDiv">
        <ImageThumbnail
          key={i}
          thumbnailFilePath={thumbPath}
@@ -35,16 +35,6 @@ class PhotoPageThumbnailContainer extends Component {
        />
       </div>
     )
-  }
-
-  _handleThumbnailSize() {
-    return {float: 'left',
-            position: 'relative',
-            width: '16.36%',
-            height: 0,
-            paddingRight: '.3%',
-            paddingBottom: '16.7%',
-            overflow: 'hidden'};
   }
 
   _handleNoPhotos = () => {

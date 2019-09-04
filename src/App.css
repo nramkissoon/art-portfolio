@@ -1,4 +1,5 @@
 body {
   background-color: black;
   font-family: 'Titillium Web', sans-serif;
+  overflow-x: hidden;
 }

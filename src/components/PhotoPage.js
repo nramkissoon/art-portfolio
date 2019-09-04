@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import FilterContainer from './PhotoPageComponents/FilterContainer';
 import PhotoPageThumbnailContainer from './PhotoPageComponents/PhotoPageThumbnailContainer';
 
 class ImagePage extends Component {
@@ -158,13 +157,6 @@ class ImagePage extends Component {
     let data = this._filterPhotoData()
     return (
       <>
-        <FilterContainer
-          applyFilter={this._applyFilter}
-          clearFilter={this._clearFilters}
-          showClear={this._checkFiltersApplied()}
-          genreFilters={this.state.filters.genres}
-          medVal={this.state.medVal}
-          colVal={this.state.colVal}/>
         <PhotoPageThumbnailContainer filteredPhotoData={data}/>
       </>
     );
