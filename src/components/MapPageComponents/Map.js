@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import GoogleMapReact from 'google-map-react';
 import Marker from './Marker';
 import PropTypes from 'prop-types';
+import './styles/map.css';
 
 class Map extends Component {
 
@@ -30,7 +31,7 @@ class Map extends Component {
   render () {
 
     return (
-      <div className="mapContainer" style={mapCSS}>
+      <div className="mapContainer">
         <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyDvYg4RBLbXfa_stM5Ihh3X25ZyGhWepCA' }}
         onGoogleApiLoaded={this.props.googleMapLoaded.bind(this, true)}
@@ -46,12 +47,6 @@ class Map extends Component {
       </div>
     )
   }
-}
-
-const mapCSS = {
-  width: '49vw',
-  height: '90vh',
-  float: 'left',
 }
 
 //Map Styles

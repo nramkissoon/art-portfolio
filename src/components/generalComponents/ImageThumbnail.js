@@ -41,9 +41,7 @@ class ImageThumbnail extends Component {
           this.props.fadeInOrder*(.01).toString())
           + 's' ,
           float: 'none',
-          height: '100%',
-          width: '100%',
-          paddingTop: '0px'}}>
+          width: '100%'}}>
         {this.state.show && (
             <FullImageModal
               handleShow={this.handleShow}
@@ -52,18 +50,17 @@ class ImageThumbnail extends Component {
               description={this.props.photoData.description}
               year={this.props.photoData.year}/>
         )}
-        <div onClick={this.handleShow}>
           <img className="thumb" alt="no thumbnail available"
             src={process.env.PUBLIC_URL + thumbnailFilePath}
             style={{height: '100%',
-              width: '100%',
+              width: '100%', verticalAlign:'middle',
               opacity: (!this.state.hover) ? 1 : .7,
               cursor: (this.state.hover) ? 'pointer' : 'default',
               transition: '.1s'}}
             onMouseOver={this._handleMouseOver}
             onMouseLeave={this._handleMouseLeave}
+            onClick={this.handleShow}
             />
-        </div>
       </div>
     )
   }

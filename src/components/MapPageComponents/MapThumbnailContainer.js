@@ -20,7 +20,7 @@ class MapThumbnailContainer extends PureComponent {
     this.props.isNight ? "nightHeader" : "dayHeader"
   )
 
-  _createThumbnailsHelper(s: String) {
+  _createThumbnailsHelper(s) {
     let formatted = s.replace(" ", "_")
     let dir1 = '/images/' + formatted + '/thumbnail/' + formatted;
     let dir2 = '/images/' + formatted + '/full/' + formatted;
@@ -38,7 +38,7 @@ class MapThumbnailContainer extends PureComponent {
     this.keyCount++;
     return list.map((i) => (
       <div key={this.keyCount.toString() + formatted + i.toString()}
-        style={this._handleThumbnailSize(list.length)}>
+        className='thumbDiv'>
        <ImageThumbnail
          key={i}
          thumbnailFilePath={dir1.concat(i.toString() + '.jpg')}
@@ -50,21 +50,6 @@ class MapThumbnailContainer extends PureComponent {
        />
       </div>
     ));
-  }
-
-  _handleThumbnailSize(i) {
-    if (i > 9) {
-      return {float: 'left',
-              position: 'relative',
-              width: '24.3%',
-              paddingLeft: '.6%',
-              overflow: 'hidden'} ;
-    }
-    return {float: 'left',
-            position: 'relative',
-            width: '32.7%',
-            paddingLeft: '.6%',
-            overflow: 'hidden'} ;
   }
 
   _createThumbnails() {

@@ -22,8 +22,26 @@ h1:hover {
   width: 49vw;
   margin: 0px;
   float: left;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
+
+.thumbDiv{
+  float: left;
+  position: relative;
+  width: 31.7%;
+  margin-right: .8%;
+  margin-left: .8%;
+  margin-bottom: 1.6%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  #mapPageThumbnailContainer {
+    height: 100vh;
+    width: 98vw;
+  }
+}
+
 
 .dayHeader, .nightHeader {
   color: #e8e8e8;
