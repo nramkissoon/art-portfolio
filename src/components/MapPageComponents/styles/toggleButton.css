@@ -14,6 +14,12 @@
   overflow-x: hidden;
 }
 
+@media only screen and (max-width: 800px) {
+  #toggle{
+    width: 30%;
+  }
+}
+
 button:focus {
   outline: none;
 }
