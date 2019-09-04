@@ -50,7 +50,7 @@ class PhotoPageThumbnailContainer extends Component {
   _handleNoPhotos = () => {
     return (
       <div style={nothingHereStyle}>
-        No photos match the filters applied :)
+        Nothing here.
       </div>
     )
   }
@@ -77,7 +77,6 @@ class PhotoPageThumbnailContainer extends Component {
 const nothingHereStyle = {
   cursor: 'default',
   color: 'white',
-  fontFamily: 'arial',
   fontSize: '35px',
   marginTop: '15%',
   marginBottom: '25%',

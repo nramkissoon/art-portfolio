@@ -51,7 +51,7 @@ const colFilter = {
   labelText: 'Color: ',
   options: {
     noneColor: 'No Filter',
-    colorOnly: 'Color Only',
+    colorOnly: 'Color Only',  
     bwOnly: 'Black & White'
   }
 }
