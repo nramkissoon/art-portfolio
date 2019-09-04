@@ -41,7 +41,8 @@ class ImageThumbnail extends Component {
           this.props.fadeInOrder*(.01).toString())
           + 's' ,
           float: 'none',
-          width: '100%'}}>
+          width: '100%',
+          position: 'relative'}}>
         {this.state.show && (
             <FullImageModal
               handleShow={this.handleShow}

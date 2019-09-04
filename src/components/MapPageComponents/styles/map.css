@@ -8,5 +8,6 @@
     .mapContainer{
         width: 98vw;
         height: 50vh;
+        float: left;
     }
 }

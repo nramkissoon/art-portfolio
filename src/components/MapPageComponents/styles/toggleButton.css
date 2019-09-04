@@ -17,6 +17,9 @@
 @media only screen and (max-width: 800px) {
   #toggle{
     width: 30%;
+    height: 6%;
+    position: absolute;
+
   }
 }
 

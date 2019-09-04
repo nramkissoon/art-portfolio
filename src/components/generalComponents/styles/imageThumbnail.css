@@ -19,6 +19,7 @@ img {
   margin: auto;
   margin-top: 15vh;
   margin-bottom: 0px;
+  position: relative;
 }
 
 .fullImage {
@@ -53,7 +54,6 @@ img {
 
 dialog {
   height: 100%;
-  width: 100%;
   border: none;
   padding: 0px;
   margin: 8px;
@@ -67,6 +67,7 @@ dialog {
   -ms-animation: fadein .7s; /* Internet Explorer */
   -o-animation: fadein .7s; /* Opera < 12.1 */
   animation: fadein .7s;
+  overflow: hidden;
 }
 
 dialog:hover {

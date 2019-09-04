@@ -15,6 +15,7 @@
 @media only screen and (max-width: 800px) {
   .headerLink, .currentPage {
     width: 20%;
+    font-size: 17px;
   }
 }
 
