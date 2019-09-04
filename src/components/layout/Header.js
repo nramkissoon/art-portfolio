@@ -48,11 +48,11 @@ class Header extends Component {
 
 const headerStyle = {
   height: '5%',
-  width: '98vw',
+  width: '100%',
+  margin: 'auto',
   background: 'black',
   textAlign: 'left',
   padding: '0px',
-  font: 'arial',
   display: 'inline-block'
 }
 
