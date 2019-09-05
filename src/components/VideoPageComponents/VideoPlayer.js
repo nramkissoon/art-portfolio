@@ -5,13 +5,6 @@ import './styles/VideoPageStyle.css';
 
 class VideoPlayer extends Component {
 
-  shouldComponentUpdate(nextProps) {
-    if (nextProps.filename !== this.props.filename){
-      return true;
-    }
-    return false
-  }
-
   render () {
     return (
       <div style={{height: "auto", width: '100%', position:'relative', float: 'left'}}>
