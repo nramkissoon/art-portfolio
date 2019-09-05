@@ -14,7 +14,7 @@
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: portrait){
   #toggle{
     width: 30%;
     height: 6%;
