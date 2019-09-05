@@ -66,8 +66,8 @@ class MapThumbnailContainer extends PureComponent {
           {this.displayHeaderText()}
         </h1>
       </div>
-      <div className='thumbnails' style={{overflowY: 'auto',
-        height: '84.6vh'
+      <div className='thumbnails' style={{overflowY: 'visible',
+        height: 'auto', minHeight: '30vh'
         }}>
         {thumbnails}
       </div>

@@ -19,7 +19,7 @@ h1:hover {
 
 #mapPageThumbnailContainer {
   height: 90vh;
-  width: 49vw;
+  width: 48.5vw;
   margin: 0px;
   float: left;
   overflow-y: hidden;
@@ -31,14 +31,16 @@ h1:hover {
   width: 31.7%;
   margin-right: .8%;
   margin-left: .8%;
-  margin-bottom: 1.6%;
+  margin-bottom: 1.7%;
   overflow: hidden;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: portrait){
   #mapPageThumbnailContainer {
-    height: 100vh;
-    width: 98vw;
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow-y: visible;
   }
 }
 

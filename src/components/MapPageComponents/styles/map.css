@@ -4,9 +4,9 @@
     float: left;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: portrait) {
     .mapContainer{
-        width: 98vw;
+        width: 100%;
         height: 50vh;
         float: left;
     }

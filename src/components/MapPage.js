@@ -54,7 +54,7 @@ class MapPage extends Component {
     currentPhotoSetData = this.props.photoData.filter(photoSet =>
       (photoSet.photoSetID === this.state.currentPhotoSet))[0]
     return (
-      <div style={{float: 'left', overflow:'hidden'}}>
+      <div style={{overflow: 'hidden'}}>
         <div style={{position: 'relative'}}>{this._loadToggle()}</div>
         {this._loadToggle()}
         <Map isNight={this.state.isNight}
