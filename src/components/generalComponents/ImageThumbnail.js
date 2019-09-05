@@ -31,8 +31,13 @@ class ImageThumbnail extends Component {
     this.setState({ hover: false });
   }
 
+  componentDidMount(){
+    const img = new Image();
+    img.src = this.props.thumbnailFilePath;
+  }
+
   render () {
-    let thumbnailFilePath = this.props.thumbnailFilePath;
+    const thumbnailFilePath = this.props.thumbnailFilePath;
     return (
       <div style={{
           animation:
