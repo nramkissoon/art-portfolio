@@ -1,6 +1,5 @@
 
 .thumbnailContainer {
-  height: 90vh;
   width: 100%;
   margin: 0px;
   float: right;
@@ -21,7 +20,7 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (orientation: portrait) {
   .thumbnailDiv{
     width: 31.7%;
     margin-right: .8%;

@@ -4,10 +4,9 @@ footer {
   color: #e8e8e8;
   font-size: 16px;
   display: inline-block;
-  vertical-align: top;
   margin-top: 2%;
   width: 100%;
-
+  position: relative; bottom: 0; left: 0; right: 0;
 }
 
 p {

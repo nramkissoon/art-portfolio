@@ -50,8 +50,8 @@ class PhotoPageThumbnailContainer extends Component {
     if (this.props.filteredPhotoData.length > 0) {
       return (
         <div className="thumbnailContainer">
-          <div className='thumbnails' style={{overflowY: 'auto',
-            height: '90vh'
+          <div className='thumbnails' style={{overflowY: 'visible',
+            height: '100%'
             }}>
             {thumbnails}
           </div>

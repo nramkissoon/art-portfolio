@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 class Header extends Component {
 
-  _handleLinkCSS(pageName: String) {
+  _handleLinkCSS(pageName) {
     if (this.props.currentPage === pageName) {
       return 'currentPage'
     }
@@ -53,7 +53,7 @@ const headerStyle = {
   background: 'black',
   textAlign: 'left',
   padding: '0px',
-  display: 'inline-block'
+  display: 'inline-block',
 }
 
 Header.propTypes = {
