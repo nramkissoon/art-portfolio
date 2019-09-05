@@ -39,7 +39,7 @@ class Map extends Component {
         defaultZoom={5}
         defaultCenter={{ lat: 40.7549, lng: -73.9840}}
         options={{styles: this._setMapStyle(),
-          fullscreenControl: false}}
+          fullscreenControl: true, gestureHandling: 'greedy'}}
         mapTypeControl={false}
         streetViewControl={false}>
           {this._createMarkers()}
