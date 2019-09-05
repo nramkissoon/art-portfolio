@@ -10,7 +10,6 @@ video:hover{
   position: relative;
   width: 100%;
   max-height: 80%;
-  float: left;
   display: inline-block;
 }
 
