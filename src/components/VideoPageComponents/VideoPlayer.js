@@ -14,7 +14,7 @@ class VideoPlayer extends Component {
 
   render () {
     return (
-      <div style={{height: "90vh", width: '70%', position:'relative', float: 'left'}}>
+      <div style={{height: "auto", width: '100%', position:'relative', float: 'left'}}>
         <video key={this.props.filename}
           width="900" controls loop autoPlay={true} muted
           controlsList="nodownload" className={"largePlayer"}
