@@ -22,7 +22,7 @@ h1:hover {
   width: 48.5vw;
   margin: 0px;
   float: left;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .thumbDiv{
