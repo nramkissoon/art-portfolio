@@ -11,7 +11,7 @@ class Map extends Component {
   }
 
   _createMarkers() {
-    let isNight = this.props.isNight;
+    const isNight = this.props.isNight;
     if(isNight) {
        return nightMarkers.map((marker) =>  (
          <Marker key={marker.photoSetID} lat={marker.lat} lng={marker.lng}

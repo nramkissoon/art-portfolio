@@ -60,8 +60,8 @@ class App extends Component {
 }
 
 
-var d = new Date();
-var year = d.getFullYear();
+const d = new Date();
+const year = d.getFullYear();
 
 const photoData = require('./json/photoData.json');
 const renderData = require('./json/renderData.json');

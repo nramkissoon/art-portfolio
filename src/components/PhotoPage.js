@@ -154,7 +154,7 @@ class ImagePage extends Component {
 
 
   render () {
-    let data = this._filterPhotoData()
+    const data = this._filterPhotoData()
     return (
       <>
         <PhotoPageThumbnailContainer filteredPhotoData={data}/>

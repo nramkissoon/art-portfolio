@@ -18,10 +18,10 @@ class PhotoPageThumbnailContainer extends Component {
   }
 
   _createThumbnailHelper(photo, i) {
-    let filename = photo.filename;
-    let dirName = filename.match(/[^1-9]*/i)[0]
-    let thumbPath = "/images/" + dirName + "/thumbnail/" + filename
-    let fullPath = "/images/" + dirName + "/full/" + filename
+    const filename = photo.filename;
+    const dirName = filename.match(/[^1-9]*/i)[0]
+    const thumbPath = `/images/${dirName}/thumbnail/${filename}`
+    const fullPath = `/images/${dirName}/full/${filename}`
     return (
       <div key={this.keyCount.toString() + filename}
         className="thumbnailDiv">
@@ -46,7 +46,7 @@ class PhotoPageThumbnailContainer extends Component {
   }
 
   render () {
-    let thumbnails = this._createThumbnails();
+    const thumbnails = this._createThumbnails();
     if (this.props.filteredPhotoData.length > 0) {
       return (
         <div className="thumbnailContainer">

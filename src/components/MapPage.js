@@ -50,8 +50,7 @@ class MapPage extends Component {
   }
 
   render () {
-    let currentPhotoSetData;
-    currentPhotoSetData = this.props.photoData.filter(photoSet =>
+    const currentPhotoSetData = this.props.photoData.filter(photoSet =>
       (photoSet.photoSetID === this.state.currentPhotoSet))[0]
     return (
       <div style={{overflow: 'hidden'}}>

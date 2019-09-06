@@ -21,10 +21,10 @@ class MapThumbnailContainer extends PureComponent {
   )
 
   _createThumbnailsHelper(s) {
-    let formatted = s.replace(" ", "_")
-    let dir1 = '/images/' + formatted + '/thumbnail/' + formatted;
-    let dir2 = '/images/' + formatted + '/full/' + formatted;
-    let num = this.props.photoSetData.numPhotos
+    const formatted = s.replace(" ", "_")
+    const dir1 = `/images/${formatted}/thumbnail/${formatted}`;
+    const dir2 = `/images/${formatted}/full/${formatted}`;
+    const num = this.props.photoSetData.numPhotos
     let list = []
     let order = {}
     for (var i = 1; i <= num; i++) {
@@ -53,12 +53,12 @@ class MapThumbnailContainer extends PureComponent {
   }
 
   _createThumbnails() {
-      let photoset = this.props.currentPhotoSet;
+      const photoset = this.props.currentPhotoSet;
       return photoset === "" ? null : this._createThumbnailsHelper(photoset);
   }
 
   render() {
-    let thumbnails = this._createThumbnails();
+    const thumbnails = this._createThumbnails();
     return (
       <div id="mapPageThumbnailContainer">
       <div className="headerContainer">

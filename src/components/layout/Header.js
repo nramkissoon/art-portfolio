@@ -15,7 +15,7 @@ class Header extends Component {
   }
 
   _createHeaderLinks() {
-    let links = ["/photo", "/video",
+    const links = ["/photo", "/video",
       "/render", "/map", "/about"];
     return links.map((link) => {return link !== this.props.currentPage ? (
         <Link key={link} to={link}>
