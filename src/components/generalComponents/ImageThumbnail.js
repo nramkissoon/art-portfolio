@@ -33,7 +33,7 @@ class ImageThumbnail extends Component {
 
   componentDidMount(){
     const img = new Image();
-    img.src = this.props.thumbnailFilePath;
+    img.src = process.env.PUBLIC_URL + this.props.thumbnailFilePath;
   }
 
   render () {
