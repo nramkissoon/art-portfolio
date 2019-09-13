@@ -1,4 +1,5 @@
 h1 {
+  color: #e8e8e8;
   cursor: default;
   font-size: 22px;
   font-weight: lighter;
@@ -9,7 +10,6 @@ h1 {
   padding-top: 0px;
   padding-bottom: 8px;
   text-align: center;
-  vertical-align: middle;
   display: block;
 }
 

@@ -1,10 +1,9 @@
-import React, {PureComponent} from 'react';
+import React, { PureComponent } from 'react';
 import './styles/imageThumbnail.css';
 import PropTypes from 'prop-types';
 
 // Full image display when ImageThumbnail is clicked
 class FullImageModal extends PureComponent {
-
   state = {
     loaded: false
   }
