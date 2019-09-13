@@ -15,58 +15,71 @@ class MapPage extends Component {
   }
 
   // Toggle Night/Day, resets Photo set
-  _toggleMapStyle = () => {
+  toggleMapStyle = () => {
+    const { isNight } = this.state;
+
     this.setState({
-      isNight: !this.state.isNight,
+      isNight: !isNight,
       currentPhotoSet: '',
     });
   }
 
-  _markerOnClick = (photoSetID) => (this.state.currentPhotoSet !== photoSetID
+  // eslint-disable-next-line react/destructuring-assignment
+  markerOnClick = (photoSetID) => (this.state.currentPhotoSet !== photoSetID
     ? this.setState({ currentPhotoSet: photoSetID }) : null)
 
-  _googleMapLoaded = (yes) => {
+  googleMapLoaded = (yes) => {
     this.setState({ shouldToggleLoad: yes }); // only set to true if Google maps loaded
   }
 
-  _loadToggle() {
-    if (this.state.shouldToggleLoad) {
+  loadToggle() {
+    const { shouldToggleLoad } = this.state;
+
+    if (shouldToggleLoad) {
       return (
         <button
+          type="button"
           id="toggle"
-          className={this._btnStyle()}
-          onClick={this._toggleMapStyle.bind(this)}
+          className={this.btnStyle()}
+          onClick={this.toggleMapStyle.bind(this)}
         >
-          {this._displayBtnText()}
+          {this.displayBtnText()}
         </button>
       );
     }
     return null;
   }
 
-  _btnStyle() {
-    return (this.state.isNight ? 'nightBtn' : 'dayBtn');
+  btnStyle() {
+    const { isNight } = this.state;
+
+    return (isNight ? 'nightBtn' : 'dayBtn');
   }
 
-  _displayBtnText() {
-    return (this.state.isNight ? 'Switch to Day' : 'Switch to Night');
+  displayBtnText() {
+    const { isNight } = this.state;
+
+    return (isNight ? 'Switch to Day' : 'Switch to Night');
   }
 
   render() {
-    const currentPhotoSetData = this.props.photoData.filter((photoSet) => (photoSet.photoSetID === this.state.currentPhotoSet))[0];
+    const { currentPhotoSet, isNight } = this.state;
+    const { photoData } = this.props;
+    const currentPhotoSetData = photoData.filter((photoSet) => (
+      photoSet.photoSetID === currentPhotoSet))[0];
     return (
       <div style={{ overflow: 'hidden' }}>
-        <div style={{ position: 'relative' }}>{this._loadToggle()}</div>
-        {this._loadToggle()}
+        <div style={{ position: 'relative' }}>{this.loadToggle()}</div>
+        {this.loadToggle()}
         <Map
-          isNight={this.state.isNight}
-          markerOnClick={this._markerOnClick}
-          selected={this.state.currentPhotoSet}
-          googleMapLoaded={this._googleMapLoaded}
+          isNight={isNight}
+          markerOnClick={this.markerOnClick}
+          selected={currentPhotoSet}
+          googleMapLoaded={this.googleMapLoaded}
         />
         <MapThumbnailContainer
-          currentPhotoSet={this.state.currentPhotoSet}
-          isNight={this.state.isNight}
+          currentPhotoSet={currentPhotoSet}
+          isNight={isNight}
           photoSetData={currentPhotoSetData}
         />
       </div>
@@ -75,6 +88,7 @@ class MapPage extends Component {
 }
 
 MapPage.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   photoData: PropTypes.array.isRequired,
 };
 
