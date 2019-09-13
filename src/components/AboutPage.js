@@ -1,14 +1,4 @@
-import React, {Component} from 'react';
-
-class AboutPage extends Component {
-  render () {
-    return (
-      <div style={nothingHereStyle}>
-        Nothing here yet :)
-      </div>
-    );
-  }
-}
+import React from 'react';
 
 const nothingHereStyle = {
   cursor: 'default',
@@ -17,6 +7,14 @@ const nothingHereStyle = {
   marginTop: '15%',
   marginBottom: '25%',
   textAlign: 'center',
+};
+
+function AboutPage() {
+  return (
+    <div style={nothingHereStyle}>
+      Nothing here yet :)
+    </div>
+  );
 }
 
 export default AboutPage;

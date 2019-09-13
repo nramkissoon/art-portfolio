@@ -1,30 +1,36 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import VideoPlayer from './VideoPageComponents/VideoPlayer';
 
 
 class VideoPage extends Component {
+  genVideos() {
+    const videos = [];
 
-  _handleSelection = (id) => {
-    let newSelection = id;
-    this.setState({selected: newSelection});
+    const { videoData } = this.props;
+
+    Object.keys(videoData).forEach((filename) => {
+      videos.push(<VideoPlayer
+        key={filename}
+        filename={filename}
+        fileData={videoData[filename]}
+      />);
+    });
+    return videos;
   }
 
-  _genVideos(){
-    let videos = []
-    Object.keys(this.props.videoData).forEach((filename) => {
-      videos.push(<VideoPlayer key={filename} filename={filename}
-        fileData={this.props.videoData[filename]}/>)
-      })
-    return videos
-  }
-
-  render () {
+  render() {
     return (
       <>
-      {this._genVideos()}
+        { this.genVideos() }
       </>
     );
   }
 }
+
+VideoPage.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  videoData: PropTypes.array.isRequired,
+};
 
 export default VideoPage;
