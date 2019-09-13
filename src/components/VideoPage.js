@@ -30,7 +30,7 @@ class VideoPage extends Component {
 
 VideoPage.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
-  videoData: PropTypes.array.isRequired,
+  videoData: PropTypes.object.isRequired,
 };
 
 export default VideoPage;
