@@ -1,74 +1,89 @@
-import React, {Component} from 'react';
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/mouse-events-have-key-events */
+import React, { Component } from 'react';
 import './styles/imageThumbnail.css';
-import FullImageModal from './FullImageModal';
 import PropTypes from 'prop-types';
+import FullImageModal from './FullImageModal';
 
 // class for image thumbnails in photo and map pages
 class ImageThumbnail extends Component {
-
   constructor(props) {
-		super(props)
-		this.state = {
-			show: false,
-      hover: false
-		}
-	}
+    super(props);
+    this.state = {
+      show: false,
+      hover: false,
+    };
+  }
+
+  componentDidMount() {
+    const img = new Image();
+    const { thumbnailFilePath } = this.props;
+    img.src = process.env.PUBLIC_URL + thumbnailFilePath;
+  }
 
   handleShow = () => {
-    this.setState({ show: !this.state.show,
-      hover: false});
+    const { show } = this.state;
+    this.setState({
+      show: !show,
+      hover: false,
+    });
   }
 
-  _handleStyle() {
-    return this.state.hover ? 'containerHover' : 'container'
-  }
+  handleMouseOver = () => (
+    // eslint-disable-next-line react/destructuring-assignment
+    !this.state.show ? this.setState({ hover: true }) : null
+  )
 
-  _handleMouseOver = () => {
-    return !this.state.show ? this.setState({ hover: true }) : null;
-  }
-
-  _handleMouseLeave = () => {
+  handleMouseLeave = () => {
     this.setState({ hover: false });
   }
 
-  componentDidMount(){
-    const img = new Image();
-    img.src = process.env.PUBLIC_URL + this.props.thumbnailFilePath;
-  }
-
-  render () {
-    const thumbnailFilePath = this.props.thumbnailFilePath;
+  render() {
+    const {
+      thumbnailFilePath,
+      fadeInOrder,
+      imgFilePath,
+      fileName,
+      photoData,
+    } = this.props;
+    const { show, hover } = this.state;
     return (
       <div style={{
-          animation:
-          "fadein " +
-          (this.props.fadeInOrder < 18 ? (this.props.fadeInOrder+.9)*(.1).toString() :
-          this.props.fadeInOrder*(.01).toString())
-          + 's' ,
-          float: 'none',
-          width: '100%',
-          position: 'relative'}}>
-        {this.state.show && (
-            <FullImageModal
-              handleShow={this.handleShow}
-              imgFilePath={this.props.imgFilePath}
-              fileName={this.props.fileName}
-              description={this.props.photoData.description}
-              year={this.props.photoData.year}/>
+        animation: `fadein ${(fadeInOrder < 18 ? (fadeInOrder + 0.9) * (0.1).toString()
+          : fadeInOrder * (0.01).toString())}s`,
+        float: 'none',
+        width: '100%',
+        position: 'relative',
+      }}
+      >
+        {show && (
+        <FullImageModal
+          handleShow={this.handleShow}
+          imgFilePath={imgFilePath}
+          fileName={fileName}
+          description={photoData.description}
+          year={photoData.year}
+        />
         )}
-          <img className="thumb" alt="no thumbnail available"
-            src={process.env.PUBLIC_URL + thumbnailFilePath}
-            style={{height: '100%',
-              width: '100%', verticalAlign:'middle',
-              opacity: (!this.state.hover) ? 1 : .7,
-              cursor: (this.state.hover) ? 'pointer' : 'default',
-              transition: '.1s'}}
-            onMouseOver={this._handleMouseOver}
-            onMouseLeave={this._handleMouseLeave}
-            onClick={this.handleShow}
-            />
+        <img
+          className="thumb"
+          alt="no thumbnail available"
+          src={process.env.PUBLIC_URL + thumbnailFilePath}
+          style={{
+            height: '100%',
+            width: '100%',
+            verticalAlign: 'middle',
+            opacity: (!hover) ? 1 : 0.7,
+            cursor: (hover) ? 'pointer' : 'default',
+            transition: '.1s',
+          }}
+          onMouseOver={this.handleMouseOver}
+          onMouseLeave={this.handleMouseLeave}
+          onClick={this.handleShow}
+        />
       </div>
-    )
+    );
   }
 }
 
@@ -76,7 +91,9 @@ ImageThumbnail.propTypes = {
   thumbnailFilePath: PropTypes.string.isRequired,
   imgFilePath: PropTypes.string.isRequired,
   fileName: PropTypes.string.isRequired,
-  photoData: PropTypes.object.isRequired
-}
+  // eslint-disable-next-line react/forbid-prop-types
+  photoData: PropTypes.object.isRequired,
+  fadeInOrder: PropTypes.number.isRequired,
+};
 
 export default ImageThumbnail;

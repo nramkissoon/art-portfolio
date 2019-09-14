@@ -1,19 +1,24 @@
+/* eslint-disable react/require-default-props */
 import React, { PureComponent } from 'react';
 import './styles/imageThumbnail.css';
 import PropTypes from 'prop-types';
 
 // Full image display when ImageThumbnail is clicked
 class FullImageModal extends PureComponent {
-  state = {
-    loaded: false
+  constructor(props) {
+    super(props);
+    this.state = {
+      loaded: false,
+    };
   }
+
 
   showLoaded = (e) => {
     e.target.style.display = 'block';
-    this.setState({loaded: true})
+    this.setState({ loaded: true });
   }
 
-  render () {
+  render() {
     if (this.state.loaded) {
       return (
         <dialog
@@ -59,9 +64,10 @@ class FullImageModal extends PureComponent {
 FullImageModal.propTypes = {
   handleShow: PropTypes.func.isRequired,
   imgFilePath: PropTypes.string.isRequired,
-  fileName: PropTypes.string.isRequired,
+  // eslint-disable-next-line react/no-unused-prop-types
+  fileName: PropTypes.string,
   description: PropTypes.string,
-  year: PropTypes.string
-}
+  year: PropTypes.string,
+};
 
 export default FullImageModal;
