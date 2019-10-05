@@ -69,7 +69,7 @@ class MapThumbnailContainer extends PureComponent {
         <div
           className="thumbnails"
           style={{
-            overflowY: 'visible',
+            overflowY: 'scroll',
             height: 'auto',
             minHeight: '30vh',
           }}

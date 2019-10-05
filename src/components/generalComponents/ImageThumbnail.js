@@ -46,12 +46,11 @@ class ImageThumbnail extends Component {
       imgFilePath,
       fileName,
       photoData,
+      handleLoad,
     } = this.props;
     const { show, hover } = this.state;
     return (
       <div style={{
-        animation: `fadein ${(fadeInOrder < 18 ? (fadeInOrder + 0.9) * (0.1).toString()
-          : fadeInOrder * (0.01).toString())}s`,
         float: 'none',
         width: '100%',
         position: 'relative',
@@ -71,6 +70,7 @@ class ImageThumbnail extends Component {
           alt="no thumbnail available"
           src={process.env.PUBLIC_URL + thumbnailFilePath}
           style={{
+            animation: `fadein .5s linear ${(fadeInOrder * (0.04)).toString()}s backwards`,
             height: '100%',
             width: '100%',
             verticalAlign: 'middle',
@@ -81,6 +81,7 @@ class ImageThumbnail extends Component {
           onMouseOver={this.handleMouseOver}
           onMouseLeave={this.handleMouseLeave}
           onClick={this.handleShow}
+          onLoad={handleLoad}
         />
       </div>
     );
@@ -94,6 +95,7 @@ ImageThumbnail.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
   photoData: PropTypes.object.isRequired,
   fadeInOrder: PropTypes.number.isRequired,
+  handleLoad: PropTypes.func.isRequired,
 };
 
 export default ImageThumbnail;
